@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700,800,900');
 body {
   font-family: 'Montserrat', sans-serif;
+  background:url("https://raw.githubusercontent.com/varunsardana004/Drum-Pad/master/image/acastro_181016_1777_music_0001.0.webp");
 }
 
 .container {
