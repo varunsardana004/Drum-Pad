@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700,800,900');
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: [header] 78px [body] auto [footer] 78px;
+  justify-items: center;
+  align-items: center;
+}
+
+.container .body {
+  display: inline-grid;
+  grid-template-columns: 100%;
+  justify-items: center;
+}
+h1{
+  text-align:center;
+  font-family: 'Alex Brush';font-size:4rem;
+  color:#c1e2f7
+}
+h3{
+  color:#2C5364;
+}
+.container .body .body-container {
+  width: 100%;
+  background: linear-gradient(to right, #16222A 0%, #50829b
+  100%);
+  margin: 10px 10px;
+  padding: 10px 15px;
+  border-radius: 30px;
+  display: inline-grid;
+  grid-template-columns:100%;
+  grid-template-rows: [body] auto;
+  color:#2C5364;
+}
+
+.header {
+  text-align: center;
+}
+
+.header>h1 {
+  display: inline;
+  vertical-align: top;
+}
+
+.body>div {
+  text-align: center;
+}
+
+
+ .body .section {
+  display: inline-grid;
+  grid-template-columns: 140px 140px 140px 140px;
+  grid-template-rows: 140px 140px 140px 140px;
+  justify-items: center;
+  align-items: center;
+  grid-gap: 12px;
+  margin: 30px 60px;
+  padding: 60px 30px;
+  border-radius: 30px;
+  justify-content: center;
+}
+
+
+.key-pad {
+  background: linear-gradient(to bottom,#F7F8F8 0%, #cbeeaa
+  100%);
+  border-radius: 12px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  text-transform: lowercase;
+}
+
+.key-pad:hover{
+  background: linear-gradient(to bottom, #f39f04 0%, #ffffff
+  50%,green 100%);
+  cursor: pointer;
+}
+
+.key-pad>h3 {
+  margin: px;
+  color: #282828;
+}
+
+.red {
+  border: 2px solid #ff4040;
+}
+
+
+
